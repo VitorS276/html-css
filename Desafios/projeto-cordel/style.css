@@ -54,7 +54,7 @@ section {
     line-height: 2em;
     padding-left: 30px;
     font-family: var(--font3);
-    font-size: 4.5vw;
+    font-size: 4vw;
 }
 
 section.normal {
@@ -68,7 +68,8 @@ section.imagem {
 }
 
 section.imagem > p {
-    width: 400px;
+    padding: 5px;
+    display: inline-block;
     background-color: rgba(0, 0, 0, 0.459);
 }
 
