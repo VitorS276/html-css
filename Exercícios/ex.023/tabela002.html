@@ -16,6 +16,7 @@
         }
 
         table {
+            position: relative;
             width: 500px;
             border-collapse: collapse;
             background-color: white;
@@ -45,6 +46,13 @@
             background-color: grey;
             color: white;
         }
+
+        thead > tr > th {
+            position: sticky;
+            top: -1px;
+            background-color: gray;
+        }
+
         tbody tr:nth-child(2n) {
             background-color: lightgray;
         }
